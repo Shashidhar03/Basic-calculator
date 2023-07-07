@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic calculator</title>
+    <link href="calculator.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <form method="post" action="/">
+        <h1>Basic calculator</h1>
+        <div>
+        <lable for="num1">
+            <p>Number1</p>
+            <input type="number" name="num1" class="num1">
+        </lable>
+         </div>
+
+         <div>
+        <lable for="num2">
+            <p>Number2</p>
+            <input type="number" name="num2" class="num2">
+        </lable>
+    </div>
+        <br>
+
+        <label for="op">
+            <input type="radio" name="operation" value="Addition">Addition
+            <input type="radio" name="operation" value="Subtraction">Subtraction
+            <input type="radio" name="operation" value="Multiplication">Multiplication
+            <input type="radio" name="operation" value="Division">Division
+        </label>
+
+        <br><br>
+        <label for="button">
+            <button type="submit">submit</button>
+        </label>
+
+    </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
